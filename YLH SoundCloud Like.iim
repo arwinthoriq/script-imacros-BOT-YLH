@@ -1,0 +1,119 @@
+﻿'Script was created by Proxhk'
+VERSION BUILD=8300326 RECORDER=FX
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 18
+SET !VAR1 EVAL("var min = 2; var max = 3; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR2 EVAL("var min = 10; var max = 12; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR3 EVAL("var min = 4; var max = 8; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+URL GOTO=http://www.youlikehits.com/soundcloudlikes.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Like
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=A ATTR=CLASS:likebutton
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-like<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive
+TAB T=2
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR2}}

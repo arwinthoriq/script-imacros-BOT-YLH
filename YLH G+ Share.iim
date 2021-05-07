@@ -1,0 +1,69 @@
+﻿VERSION BUILD=8881205 RECORDER=FX
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 20
+SET !VAR1 EVAL("var min = 2; var max = 3; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR2 EVAL("var min = 6; var max = 7; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR3 EVAL("var min = 14; var max = 15; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+URL GOTO=http://www.youlikehits.com/googleshares.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Share
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Share<SP>Post
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV>CONTENT>SPAN" BUTTON=0
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV:nth-of-type(2)>C-WIZ>DIV>DIV:nth-of-type(2)>CONTENT>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)" BUTTON=0
+WAIT SECONDS=4
+TAG POS=1 TYPE=SPAN ATTR=TXT:Post
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+
+TAG POS=1 TYPE=A ATTR=TXT:Share<SP>Post
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV>CONTENT>SPAN" BUTTON=0
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV:nth-of-type(2)>C-WIZ>DIV>DIV:nth-of-type(2)>CONTENT>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)" BUTTON=0
+WAIT SECONDS=4
+TAG POS=1 TYPE=SPAN ATTR=TXT:Post
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+
+TAG POS=1 TYPE=A ATTR=TXT:Share<SP>Post
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV>CONTENT>SPAN" BUTTON=0
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV:nth-of-type(2)>C-WIZ>DIV>DIV:nth-of-type(2)>CONTENT>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)" BUTTON=0
+WAIT SECONDS=4
+TAG POS=1 TYPE=SPAN ATTR=TXT:Post
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}
+
+TAG POS=1 TYPE=A ATTR=TXT:Share<SP>Post
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>DIV:nth-of-type(6)>DIV>CONTENT>SPAN" BUTTON=0
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>DIV:nth-of-type(5)>DIV>C-WIZ>DIV>DIV>DIV>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV>CONTENT>SPAN" BUTTON=0
+WAIT SECONDS={{!VAR1}}
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV:nth-of-type(2)>C-WIZ>DIV>DIV:nth-of-type(2)>CONTENT>DIV:nth-of-type(2)>DIV>DIV:nth-of-type(2)" BUTTON=0
+WAIT SECONDS=4
+TAG POS=1 TYPE=SPAN ATTR=TXT:Post
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR3}}

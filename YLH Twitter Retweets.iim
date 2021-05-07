@@ -1,0 +1,202 @@
+﻿'Script was created by Ninosla from http://digesale.com/user-profile/ninosla'
+'Visit the link above for more info, for more scripts and if you want to contact the creator'
+VERSION BUILD=8890130 RECORDER=FX
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 15
+SET !VAR1 EVAL("var min = 2; var max = 3; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR2 EVAL("var min = 6; var max = 7; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR3 EVAL("var min = 12; var max = 13; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+
+URL GOTO=http://www.youlikehits.com/retweets.php
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Retweet
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:retweet_btn_form ATTR=NAME:commit
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+WAIT SECONDS={{!VAR1}}
+FRAME F=1
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}

@@ -1,0 +1,202 @@
+﻿'Script was created by Proxhk'
+VERSION BUILD=8300326 RECORDER=FX
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 20
+SET !VAR1 EVAL("var min = 4; var max = 5; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR2 EVAL("var min = 4; var max = 5; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+SET !VAR3 EVAL("var min = 10; var max = 12; var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min; randomNumber;")
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS=2
+TAG POS=1 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=1 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=1 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=1 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=1 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=2 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=2 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=2 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=2 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=2 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=2 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
+URL GOTO=http://www.youlikehits.com/soundcloud.php
+WAIT SECONDS={{!VAR1}}
+TAG POS=3 TYPE=A ATTR=TXT:Follow
+TAB T=2
+WAIT SECONDS={{!VAR1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:sc-button-follow<SP>sc-button<SP>sc-button-medium<SP>sc-button-responsive<SP>sc-button-cta
+TAB T=2
+WAIT SECONDS={{!VAR2}}
+TAB T=1
+TAB CLOSEALLOTHERS
+TAG POS=3 TYPE=A ATTR=TXT:Confirm
+WAIT SECONDS={{!VAR3}}
+TAB T=1
